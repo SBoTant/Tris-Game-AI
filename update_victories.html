@@ -1,0 +1,30 @@
+<!-- update_player_info.html -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aggiorna Informazioni Giocatore</title>
+</head>
+<body>
+    <h1>Aggiorna Informazioni Giocatore</h1>
+    <form action="update_player_info.php" method="POST">
+        <label for="id">ID Giocatore:</label>
+        <input type="number" id="id" name="id" required><br><br>
+
+        <label for="partite_locali">Partite Locali:</label>
+        <input type="number" id="partite_locali" name="partite_locali" required><br><br>
+
+        <label for="partite_globali">Partite Globali:</label>
+        <input type="number" id="partite_globali" name="partite_globali" required><br><br>
+
+        <label for="partite_locali_vinte">Partite Locali Vinte:</label>
+        <input type="number" id="partite_locali_vinte" name="partite_locali_vinte" required><br><br>
+
+        <label for="partite_globali_vinte">Partite Globali Vinte:</label>
+        <input type="number" id="partite_globali_vinte" name="partite_globali_vinte" required><br><br>
+
+        <input type="submit" value="Aggiorna Informazioni">
+    </form>
+</body>
+</html>
